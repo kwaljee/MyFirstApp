@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E67E22"
+    tools:context="com.example.myfirstapp.MainActivity">
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" />
+
+    <TextView
+        android:background="#660066"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Guroofy, Educational Consulting Services"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:paddingRight="16dp"
+        android:gravity="right"/>
+
+    <TextView
+        android:background="#660066"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="55 Fictional Ave, Toronto, ON 5F5 5F5"
+        android:textSize="16sp"
+        android:paddingRight="16dp"
+        android:gravity="right"/>
+
+    <TextView
+        android:background="#660066"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="(555)555-5555"
+        android:textSize="16sp"
+        android:paddingRight="16dp"
+        android:gravity="right"/>
+
+    <TextView
+        android:background="#660066"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="info@guroofy.com"
+        android:textSize="16sp"
+        android:paddingRight="16dp"
+        android:gravity="right"/>
+
+    <TextView
+        android:background="#660066"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="http://www.guroofy.com"
+        android:textSize="16sp"
+        android:paddingBottom="8dp"
+        android:paddingRight="16dp"
+        android:gravity="right"/>
+</LinearLayout>
